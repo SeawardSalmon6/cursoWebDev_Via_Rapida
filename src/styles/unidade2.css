@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 1080px;
+    display:grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1px 16px 16px 16px;
+    margin: 0 auto;
+}
+
+.content {
+    padding-left: 16px;
+    padding-right: 16px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.dadosTecnicos h2 {
+    grid-row: 1/2;
+    line-height: 35px;
+}
+
+.sinopse p {
+    grid-row: 2/3;
+    font-size: 18px;
+    text-indent: 1.25cm;
+}
+
+.capaFilme {
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    border: solid thick;
+    border-radius: 8px;
+    grid-row: 1/3;
+}
+
+.classIndicativa {
+    max-width: 25px;
+    max-height: 25px;
+    vertical-align: middle;
+}
+
+.videoTrailer {
+    padding: 16px 16px 16px 16px;
+    margin: 0 auto;
+    text-align: center;
+}
